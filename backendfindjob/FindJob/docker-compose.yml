@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  findjob:
+    image: ${DOCKER_REGISTRY-}findjob
+    build:
+      context: .
+      dockerfile: FindJob/Dockerfile
+    ports:
+      - "7186:443"
+
+  SqlServ:
+    image: mcr.microsoft.com/mssql/server:2017-latest 
+    environment:
+      - SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+    ports:
+      - "1434:1433"
+    volumes:
+      - catalog-data:/var/opt/mssql/data
+
+volumes:
+  catalog-data:

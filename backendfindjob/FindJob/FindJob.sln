@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindJob", "FindJob\FindJob.csproj", "{965D087B-86B1-4EB5-A5D5-ECC088A96F16}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5D65D5A-2879-4E15-BD67-78A4A6B04A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{965D087B-86B1-4EB5-A5D5-ECC088A96F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965D087B-86B1-4EB5-A5D5-ECC088A96F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965D087B-86B1-4EB5-A5D5-ECC088A96F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965D087B-86B1-4EB5-A5D5-ECC088A96F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D65D5A-2879-4E15-BD67-78A4A6B04A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D65D5A-2879-4E15-BD67-78A4A6B04A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D65D5A-2879-4E15-BD67-78A4A6B04A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D65D5A-2879-4E15-BD67-78A4A6B04A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {064DE172-74DB-40F9-A6E6-95367AF0E3CA}
+	EndGlobalSection
+EndGlobal
